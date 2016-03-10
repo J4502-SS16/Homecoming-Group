@@ -9,6 +9,11 @@ header {
     padding: 4px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+
 p {
     font-family: "Minion Pro", serif;
 }
