@@ -1,3 +1,21 @@
 header{
-  
+
+}
+
+header {
+    font-size: 35px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+p {
+    font-family: "Minion Pro", serif;
 }
