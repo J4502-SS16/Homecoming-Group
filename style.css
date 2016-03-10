@@ -11,6 +11,12 @@ header {
     text-align: center;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+   width: 60%;
+}
+
 ul {
   list-style-type: none;
 }
