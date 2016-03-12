@@ -40,7 +40,7 @@ footer{
 }
 
 .internalheader {
-  float: center;
+  text-align: center;
   font-size: 28px;
-  
+
 }
