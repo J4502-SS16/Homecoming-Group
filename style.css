@@ -26,14 +26,12 @@ p {
 }
 
 nav{
-<<<<<<< HEAD
+
   border: black;
   background-color: #F1B82D;
   text-align: center;
   width: 100%;
-=======
 
->>>>>>> origin/master
 }
 
 
@@ -41,13 +39,12 @@ nav{
 footer{
   text-align: center;
   background-color: #F1B82D;
-<<<<<<< HEAD
-=======
+
 }
 
 .internalheader {
   text-align: center;
   font-size: 28px;
 
->>>>>>> origin/master
+
 }
