@@ -38,3 +38,9 @@ footer{
   background-color: #F1B82D;
 >>>>>>> origin/master
 }
+
+.internalheader {
+  float: center;
+  font-size: 28px;
+  
+}
