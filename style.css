@@ -27,8 +27,16 @@ p {
 }
 
 nav{
-
+  border: black;
+  background-color: #F1B82D;
+  text-align: center;
+  width: 100%;
 }
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
 footer{
   text-align: center;
