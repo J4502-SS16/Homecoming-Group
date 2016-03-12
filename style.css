@@ -21,11 +21,28 @@ ul {
   list-style-type: none;
 }
 
-
 p {
     font-family: "Minion Pro", serif;
 }
 
 nav{
-  
+  border: black;
+  background-color: #F1B82D;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+footer{
+  text-align: center;
+  background-color: #F1B82D;
+
+}
+
+.internalheader {
+  text-align: center;
+  font-size: 32px;
+
+
 }
