@@ -34,3 +34,9 @@ footer{
   text-align: center;
   background-color: #F1B82D;
 }
+
+.internalheader {
+  float: center;
+  font-size: 28px;
+  
+}
