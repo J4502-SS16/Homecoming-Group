@@ -118,13 +118,13 @@ nav a:visited, nav a:link{
 }
 
 .spotlightmain{
-  float: right;
   width:70%;
 }
 
 .avatar{
   float: left;
   width: 30%;
-  height: auto;
+  height: 20%;
+  align: vertical;
 }
 /* this is end of spotlight page only*/
