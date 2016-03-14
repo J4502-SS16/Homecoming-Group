@@ -67,6 +67,16 @@ footer{
   font-size: 32px;
 }
 
+h1 a:link{
+  text-decoration: none;
+  color: white;
+}
+
+h1 a:visited{
+  text-decoration: none;
+  color: white;
+}
+
 .housedecsmap{
   padding: 10px;
 }
