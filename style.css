@@ -92,6 +92,12 @@ nav a:visited, nav a:link{
   font-weight: bold;
 }
 
-.box {
+.spotlightsidebar {
   float: left;
+  width: 30%;
+}
+
+.spotlightmain{
+  float: right;
+  width:70%;
 }
