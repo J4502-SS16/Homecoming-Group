@@ -52,14 +52,20 @@ footer{
   width: 100%;
   clear: both;
 }
-
-}
 /* this is end of every page content*/
 
 /* this is homepage only*/
 .figure{
   height: auto;
    width: 100%;
+}
+
+figcaption{
+  padding: 0px;
+}
+
+h4{
+  padding: 0px;
 }
 /* this is end of homepage only*/
 
@@ -106,8 +112,8 @@ nav a:visited, nav a:link{
 
 /* this is spotlight page only*/
 .spotlightsidebar {
-  clear: both;
-  text-align: center;
+  float: left;
+  width: 30%;
 }
 
 .spotlightmain{
