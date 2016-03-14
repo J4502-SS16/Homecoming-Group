@@ -1,7 +1,5 @@
-header{
 
-}
-
+/* this is on every page*/
 header {
     font-size: 35px;
     width: 100%;
@@ -14,7 +12,18 @@ header {
 .center {
   margin-left: auto;
   margin-right: auto;
-   width: 60%;
+   width: 100%;
+   height:auto;
+   text-align: center;
+   display: block;
+}
+
+img{
+  width: 100%;
+}
+
+.logo{
+  width:20px;
 }
 
 ul {
@@ -22,27 +31,120 @@ ul {
 }
 
 p {
-    font-family: "Minion Pro", serif;
+    font-family: "Domine", serif;
 }
 
 nav{
-  border: black;
+  border:none;
   background-color: #F1B82D;
   text-align: center;
   width: 100%;
 }
 
-
+nav li {
+  font-size: 18px;
+  padding: 4px 0;
+  font-size: 200%
+}
 
 footer{
   text-align: center;
   background-color: #F1B82D;
+  width: 100%;
+  clear: both;
+}
+/* this is end of every page content*/
 
+/* this is homepage only*/
+.figure{
+  height: auto;
+   width: 100%;
+   padding:0px 0px 20px 0px;
 }
 
-.internalheader {
+figcaption{
+  padding: 5px 0px 15px 0px;
+}
+/* this is end of homepage only*/
+
+
+.q{
+  color: #F1B82D;
+  font-weight: bold;
+}
+
+h3{
+  width:100%;
   text-align: center;
   font-size: 32px;
-
-
 }
+
+h1 a:link{
+  text-decoration: none;
+  color: white;
+}
+
+h1 a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+/* this is maps page only*/
+.housedecsmap{
+  padding: 10px;
+}
+
+.paraderoutemap{
+  padding: 10px;
+}
+
+h4{
+  font-family: "domine", serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 0px 4px 0px;
+  display:inline;
+}
+/* this is end of maps only*/
+
+nav a:visited, nav a:link{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* this is spotlight page only*/
+.spotlightsidebar {
+ clear: both;
+}
+
+.spotlightsidebar li{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px;
+}
+
+.spotlightmain{
+  width:100%;
+}
+
+h5{
+  font-family: "domine", serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 0px 4px 0px;
+  display:inline;
+}
+
+figure a:visited, figure a:link{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.avatar{
+  width: 30%;
+  min-width: 300px;
+}
+/* this is end of spotlight page only*/
