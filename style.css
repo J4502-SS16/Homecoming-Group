@@ -1,5 +1,5 @@
-
-header {
+/* this is on every page*/
+  header {
     font-size: 35px;
     width: 100%;
     background-color: black;
@@ -52,16 +52,27 @@ nav li {
   font-size: 200%
 }
 
+nav a:visited, nav a:link{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 footer{
   text-align: center;
   background-color: #F1B82D;
-
 }
+/* end of content on every on every page*/
 
+
+/* this is on marching mizzou page*/
 .q{
   color: #F1B82D;
   font-weight: bold;
 }
+/*this is end of content on marching mizzou page*/
+
+
 .internalheader {
   text-align: center;
   font-size: 32px;
@@ -77,6 +88,7 @@ h1 a:visited{
   color: white;
 }
 
+/* this is on maps page*/
 .housedecsmap{
   padding: 10px;
 }
@@ -84,14 +96,10 @@ h1 a:visited{
 .paraderoutemap{
   padding: 10px
 }
+/* this is end of what is on maps page*/
 
 
-nav a:visited, nav a:link{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
+/* this is on spotlight page*/
 .spotlightsidebar {
   float: left;
   width: 30%;
@@ -101,3 +109,4 @@ nav a:visited, nav a:link{
   float: right;
   width:70%;
 }
+/* this is end of spotlight page*/
