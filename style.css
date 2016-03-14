@@ -135,7 +135,7 @@ h5{
   display:inline;
 }
 
-h5 a:visited, h5 a:link{
+figure a:visited, figure a:link{
   text-decoration: none;
   color: black;
   font-weight: bold;
