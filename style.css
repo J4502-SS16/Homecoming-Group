@@ -122,6 +122,8 @@ nav a:visited, nav a:link{
 }
 
 .avatar{
+  width: 40%;
+  height: auto;
 
 }
 /* this is end of spotlight page only*/
