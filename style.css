@@ -34,7 +34,7 @@ p {
 }
 
 nav{
-  border: black;
+  border:none;
   background-color: #F1B82D;
   text-align: center;
   width: 100%;
@@ -70,9 +70,11 @@ figcaption{
   color: #F1B82D;
   font-weight: bold;
 }
+
 .internalheader {
   text-align: center;
   font-size: 32px;
+  width: 100%;
 }
 
 h1 a:link{
