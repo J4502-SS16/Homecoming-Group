@@ -1,4 +1,5 @@
 
+/* this is on every page*/
 header {
     font-size: 35px;
     width: 100%;
@@ -56,6 +57,7 @@ footer{
   width: 100%;
   clear: both;
 }
+/* this is end of every page content*/
 
 /* this is homepage only*/
 .photoheadline{
@@ -70,6 +72,7 @@ footer{
    width: 100%;
 }
 /* this is end of homepage only*/
+
 
 .q{
   color: #F1B82D;
@@ -90,6 +93,7 @@ h1 a:visited{
   color: white;
 }
 
+/* this is maps page only*/
 .housedecsmap{
   padding: 10px;
 }
@@ -97,7 +101,7 @@ h1 a:visited{
 .paraderoutemap{
   padding: 10px;
 }
-
+/* this is end of maps only*/
 
 nav a:visited, nav a:link{
   text-decoration: none;
@@ -105,6 +109,7 @@ nav a:visited, nav a:link{
   font-weight: bold;
 }
 
+/* this is spotlight page only*/
 .spotlightsidebar {
   float: left;
   width: 30%;
@@ -114,3 +119,4 @@ nav a:visited, nav a:link{
   float: right;
   width:70%;
 }
+/* this is end of spotlight page only*/
