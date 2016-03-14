@@ -39,6 +39,7 @@ ul {
 
 p {
     font-family: "Domine", serif;
+    
 }
 
 nav{
@@ -48,7 +49,9 @@ nav{
   width: 100%;
 }
 
-
+nav li {
+  font-size: 18px;
+}
 
 footer{
   text-align: center;
