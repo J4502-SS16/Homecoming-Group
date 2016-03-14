@@ -52,6 +52,8 @@ footer{
   width: 100%;
   clear: both;
 }
+
+}
 /* this is end of every page content*/
 
 /* this is homepage only*/
@@ -104,8 +106,8 @@ nav a:visited, nav a:link{
 
 /* this is spotlight page only*/
 .spotlightsidebar {
-  float: left;
-  width: 30%;
+  clear: both;
+  text-align: center;
 }
 
 .spotlightmain{
