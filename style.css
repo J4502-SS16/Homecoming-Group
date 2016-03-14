@@ -122,7 +122,6 @@ nav a:visited, nav a:link{
   color: black;
   font-weight: bold;
   text-align: center;
-  display:inline-block;
   padding: 4px;
 }
 
