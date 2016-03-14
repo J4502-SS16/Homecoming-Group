@@ -36,7 +36,6 @@ ul {
 
 p {
     font-family: "Domine", serif;
-
 }
 
 nav{
@@ -61,10 +60,19 @@ nav a:visited, nav a:link{
 footer{
   text-align: center;
   background-color: #F1B82D;
-  width: 100%; 
+  width: 100%;
   clear: both;
 }
 /* end of content on every on every page*/
+
+/* this is homepage only*/
+.photoheadline{
+  font-size: 18px;
+  padding: 2px;
+  font-weight; bold;
+
+}
+/* end of homepage only*/
 
 
 /* this is on marching mizzou page*/
