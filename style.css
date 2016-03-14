@@ -137,6 +137,7 @@ h5{
 
 .avatar{
   width: 30%;
-  height: 20%;
+  max-width: 200px;
+  min-width: 50px;
 }
 /* this is end of spotlight page only*/
