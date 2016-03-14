@@ -121,10 +121,10 @@ nav a:visited, nav a:link{
 
 .spotlightmain{
   width:70%;
+  
 }
 
 .avatar{
-  float: left;
   width: 30%;
   height: 20%;
   align: vertical;
