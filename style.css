@@ -109,7 +109,6 @@ nav a:visited, nav a:link{
 
 /* this is spotlight page only*/
 .spotlightsidebar {
-  float: left;
   width: 30%;
 }
 
@@ -119,6 +118,7 @@ nav a:visited, nav a:link{
 }
 
 .avatar{
+  float: left;
   width: 40%;
   height: auto;
 
