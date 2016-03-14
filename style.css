@@ -36,7 +36,6 @@ ul {
 
 p {
     font-family: "Domine", serif;
-
 }
 
 nav{
@@ -57,8 +56,16 @@ footer{
   background-color: #F1B82D;
   width: 100%;
   clear: both;
+}
+
+/* this is homepage only*/
+.photoheadline{
+  font-size: 18px;
+  padding: 2px;
+  font-weight; bold;
 
 }
+
 
 .q{
   color: #F1B82D;
