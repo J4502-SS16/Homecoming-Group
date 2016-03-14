@@ -118,8 +118,9 @@ nav a:visited, nav a:link{
 }
 
 .spotlightmain{
-  width:70%;
+  width:100%;
 }
+
 h5{
   font-family: "domine", serif;
   font-size: 25px;
