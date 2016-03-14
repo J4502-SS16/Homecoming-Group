@@ -63,6 +63,7 @@ footer{
 figcaption{
   padding: 0px;
   display:inline-block;
+  line-height: 0px;
 }
 /* this is end of homepage only*/
 
@@ -102,6 +103,7 @@ h4{
   font-weight: bold;
   padding: 0px 0px;
   display: inline-block;
+  line-height: 0px;
 }
 /* this is end of maps only*/
 
