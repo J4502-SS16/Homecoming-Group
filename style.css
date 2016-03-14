@@ -102,12 +102,8 @@ h4{
   font-weight: bold;
   padding: 0px 0px;
   display: inline-block;
-<<<<<<< HEAD
-=======
-  line-height: 0px;
   height: 0px;
->>>>>>> origin/master
-}
+
 /* this is end of maps only*/
 
 nav a:visited, nav a:link{
@@ -123,7 +119,7 @@ nav a:visited, nav a:link{
 
 .spotlightmain{
   width:70%;
-  
+
 }
 
 .avatar{
