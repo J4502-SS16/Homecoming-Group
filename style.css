@@ -61,7 +61,7 @@ footer{
 }
 
 figcaption{
-  padding: 0px 0px 8px 0px;
+  padding: 0px 0px 15px 0px;
   display:inline-block;
 }
 /* this is end of homepage only*/
@@ -97,10 +97,16 @@ h1 a:visited{
 }
 
 h4{
+  font-family: "domine", serif;
   font-size: 25px;
   font-weight: bold;
   padding: 0px 0px;
   display: inline-block;
+<<<<<<< HEAD
+=======
+  line-height: 0px;
+  height: 0px;
+>>>>>>> origin/master
 }
 /* this is end of maps only*/
 
@@ -116,13 +122,13 @@ nav a:visited, nav a:link{
 }
 
 .spotlightmain{
-  float: right;
   width:70%;
+  
 }
 
 .avatar{
-  float: left;
   width: 30%;
-  height: auto;
+  height: 20%;
+  align: vertical;
 }
 /* this is end of spotlight page only*/
