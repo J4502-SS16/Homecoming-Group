@@ -21,6 +21,10 @@ img{
   width: 100%;
 }
 
+.logo{
+  width:20px;
+}
+
 ul {
   list-style-type: none;
 }
