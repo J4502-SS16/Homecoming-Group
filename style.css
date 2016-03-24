@@ -8,7 +8,11 @@ header {
     padding: 4px;
     text-align: center;
     height: auto;
+}
 
+h1{
+  font-family: "Domine";
+  font-size: 50%;
 }
 
 .center {
