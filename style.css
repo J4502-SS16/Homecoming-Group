@@ -46,7 +46,11 @@ nav{
   border:none;
   background-color: #F1B82D;
   text-align: center;
+  font-family: "Domine";
+  font-size: 80%;
+  font-weight:bold;
   width: 100%;
+  height:auto;
 }
 
 nav li {
