@@ -32,6 +32,7 @@ img{
 .logo{
   width:40px;
   float: left;
+  padding: 0px;
 }
 
 ul {
