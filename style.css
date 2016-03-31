@@ -7,6 +7,12 @@ header {
     color: white;
     padding: 4px;
     text-align: center;
+    height: auto;
+}
+
+h1{
+  font-family: "Domine";
+  font-size: 100%;
 }
 
 .center {
@@ -16,14 +22,17 @@ header {
    height:auto;
    text-align: center;
    display: block;
+   font-family: "Domine", serif;
 }
 
 img{
-  width: 100%;
+  width: 100%
 }
 
 .logo{
-  width:20px;
+  width:40px;
+  float: left;
+  padding: 0px 0px 0px 20px;
 }
 
 ul {
@@ -32,13 +41,18 @@ ul {
 
 p {
     font-family: "Domine", serif;
+    font-size: 100%;
 }
 
 nav{
   border:none;
   background-color: #F1B82D;
   text-align: center;
+  font-family: "Domine";
+  font-size: 80%;
+  font-weight:bold;
   width: 100%;
+  height:auto;
 }
 
 nav li {
@@ -130,7 +144,7 @@ nav a:visited, nav a:link{
 }
 
 h5{
-  font-family: "domine", serif;
+  font-family: "Domine", serif;
   font-size: 25px;
   font-weight: bold;
   padding: 20px 0px 4px 0px;
