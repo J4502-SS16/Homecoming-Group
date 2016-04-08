@@ -186,6 +186,7 @@ figure a:visited, figure a:link{
 #hamburger li{
   border-right:none;
   border-bottom:1px solid rgba(255,255,255,.5);
+  flex-flow: row;
   }
 
 #hamburger{
