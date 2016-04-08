@@ -194,10 +194,18 @@ figure a:visited, figure a:link{
 
 #hamburger{
   display: flex;
-  order:2;
   margin:10px;
   align-self: flex-start;
   flex-flow: row;
+  }
+  
+nav{
+  display:flex;
+  flex-flow:row;
+}
+  }
+  }
+  }
 }
 
 }
