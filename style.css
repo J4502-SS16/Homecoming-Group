@@ -193,6 +193,7 @@ figure a:visited, figure a:link{
   order:2;
   margin:10px;
   align-self: flex-start;
+  flex-flow: row;
 }
 
 }
