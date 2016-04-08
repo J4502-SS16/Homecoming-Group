@@ -165,14 +165,33 @@ figure a:visited, figure a:link{
 /* this is end of spotlight page only*/
 
 @media screen and (min-width:500px){
-.hamburger{
+#hamburger{
   display:flex;
   width: 0%;
   height: 0%;
   align-self: flex-start;
+  border-right:none;
+}
+  }
+
 }
 
 
 @media screen and (min-width:1000px){
+#hamburger ul{
+  display:flex;
+  flex-flow:column;
+  }
+
+#hamburger li{
+  border-right:none;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  }
+
+#hamburger{
+  order:2;
+  margin:10px;
+  align-self: flex-start;
+}
 
 }
