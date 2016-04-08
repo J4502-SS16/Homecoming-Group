@@ -162,3 +162,11 @@ figure a:visited, figure a:link{
   min-width: 300px;
 }
 /* this is end of spotlight page only*/
+
+@media screen and (min-width:600px){
+
+}
+
+@media screen and (min-width:1000px){
+  
+}
