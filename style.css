@@ -47,7 +47,6 @@ p {
 nav{
   border:none;
   background-color: #F1B82D;
-  text-align: center;
   font-family: "Domine";
   font-size: 80%;
   font-weight:bold;
@@ -187,12 +186,14 @@ figure a:visited, figure a:link{
   }
 
 #hamburger li{
+  display:flex;
   border-right:none;
   border-bottom:1px solid rgba(255,255,255,.5);
   flex-flow: row;
   }
 
 #hamburger{
+  display: flex;
   order:2;
   margin:10px;
   align-self: flex-start;
