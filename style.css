@@ -180,7 +180,7 @@ figure a:visited, figure a:link{
 @media screen and (min-width:1000px){
 #hamburger ul{
   display:flex;
-  flex-flow:column;
+  flex-flow:row;
   }
 
 #hamburger li{
