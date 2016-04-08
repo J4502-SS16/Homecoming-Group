@@ -166,10 +166,12 @@ figure a:visited, figure a:link{
 
 @media screen and (max-width:500px){
 .hamburger{
+  display:flex;
   width: 0%;
   height: 0%;
+  align-self: flex-start;
 }
-}
+
 
 @media screen and (min-width:501px){
 
