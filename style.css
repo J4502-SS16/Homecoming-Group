@@ -53,6 +53,9 @@ nav{
   font-weight:bold;
   width: 100%;
   height:auto;
+  display:flex;
+flex-flow:row;
+justify-content: space-around;
 }
 
 nav li {
