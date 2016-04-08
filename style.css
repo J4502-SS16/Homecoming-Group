@@ -164,10 +164,10 @@ figure a:visited, figure a:link{
 }
 /* this is end of spotlight page only*/
 
-@media screen and (min-width:600px){
+@media screen and (max-width:500px){
 
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:501px){
 
 }
