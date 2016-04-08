@@ -8,13 +8,11 @@ header {
     padding: 4px;
     text-align: center;
     height: auto;
-    display: flex;
 }
 
 h1{
   font-family: "Domine";
   font-size: 100%;
-    display: flex;
 }
 
 .center {
@@ -25,30 +23,25 @@ h1{
    text-align: center;
    display: block;
    font-family: "Domine", serif;
-     display: flex;
 }
 
 img{
   width: 100%
-    display: flex;
 }
 
 .logo{
   width:40px;
   float: left;
   padding: 0px 0px 0px 20px;
-    display: flex;
 }
 
 ul {
   list-style-type: none;
-    display: flex;
 }
 
 p {
     font-family: "Domine", serif;
     font-size: 100%;
-      display: flex;
 }
 
 nav{
@@ -60,14 +53,12 @@ nav{
   font-weight:bold;
   width: 100%;
   height:auto;
-    display: flex;
 }
 
 nav li {
   font-size: 18px;
   padding: 4px 0;
   font-size: 200%
-    display: flex;
 }
 
 footer{
@@ -75,7 +66,6 @@ footer{
   background-color: #F1B82D;
   width: 100%;
   clear: both;
-    display: flex;
 }
 /* this is end of every page content*/
 
@@ -84,12 +74,10 @@ footer{
   height: auto;
    width: 100%;
    padding:0px 0px 20px 0px;
-     display: flex;
 }
 
 figcaption{
   padding: 5px 0px 15px 0px;
-    display: flex;
 }
 /* this is end of homepage only*/
 
@@ -97,7 +85,6 @@ figcaption{
 .q{
   color: #F1B82D;
   font-weight: bold;
-    display: flex;
 }
 /* this is end of homepage only*/
 
@@ -105,30 +92,25 @@ h3{
   width:100%;
   text-align: center;
   font-size: 32px;
-    display: flex;
 }
 
 h1 a:link{
   text-decoration: none;
   color: white;
-    display: flex;
 }
 
 h1 a:visited{
   text-decoration: none;
   color: white;
-    display: flex;
 }
 
 /* this is maps page only*/
 .housedecsmap{
   padding: 10px;
-    display: flex;
 }
 
 .paraderoutemap{
   padding: 10px;
-    display: flex;
 }
 
 h4{
@@ -144,13 +126,11 @@ nav a:visited, nav a:link{
   text-decoration: none;
   color: black;
   font-weight: bold;
-    display: flex;
 }
 
 /* this is spotlight page only*/
 .spotlightsidebar {
  clear: both;
-   display: flex;
 }
 
 .spotlightsidebar li{
@@ -158,12 +138,10 @@ nav a:visited, nav a:link{
   font-weight: bold;
   text-align: center;
   padding: 4px;
-    display: flex;
 }
 
 .spotlightmain{
   width:100%;
-    display: flex;
 }
 
 h5{
@@ -178,13 +156,11 @@ figure a:visited, figure a:link{
   text-decoration: none;
   color: black;
   font-weight: bold;
-    display: flex;
 }
 
 .avatar{
   width: 30%;
   min-width: 300px;
-    display: flex;
 }
 /* this is end of spotlight page only*/
 
