@@ -198,14 +198,9 @@ figure a:visited, figure a:link{
   align-self: flex-start;
   flex-flow: row;
   }
-  
+
 nav{
   display:flex;
   flex-flow:row;
 }
   }
-  }
-  }
-}
-
-}
