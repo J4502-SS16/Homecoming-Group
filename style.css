@@ -189,6 +189,7 @@ figure a:visited, figure a:link{
   }
 
   .spotlightimg {
+      display: flex;
       width:500px;
       margin: 0 auto;
     }
