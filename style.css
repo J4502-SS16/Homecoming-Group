@@ -168,7 +168,7 @@ figure a:visited, figure a:link{
 }
 /* this is end of spotlight page only*/
 
-@media screen and (min-width:500px){
+@media screen and (min-width:700px){
 #hamburger{
   display:flex;
   width: 0%;
@@ -179,6 +179,7 @@ figure a:visited, figure a:link{
 
 .spotlightimg{
     width:50%;
+    align: center; 
   }
 
 }
