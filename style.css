@@ -206,9 +206,6 @@ figure a:visited, figure a:link{
   flex-flow: row;
   }
 
-.figure{
-  width: 30%;
-}
 nav{
   display:flex;
   flex-flow:row;
