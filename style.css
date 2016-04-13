@@ -169,42 +169,30 @@ figure a:visited, figure a:link{
 /* this is end of spotlight page only*/
 
 
+
 @media screen and (min-width:700px){
-#hamburger{
-  display:flex;
-  width: 0%;
-  height: 0%;
-  align-self: flex-start;
-  border-right:none;
-}
+  #hamburger{
+    display: flex;
+    margin:10px;
+    }
 
-.spotlightimg{
-    width:50%;
-    margin: auto;
-  }
-
-}
-
-
-@media screen and (min-width:1000px){
 #hamburger ul{
   display:flex;
   flex-flow:row;
   }
 
 #hamburger li{
-  display:flex;
-  border-right:none;
   border-bottom:1px solid rgba(255,255,255,.5);
-  flex-flow: row;
+  justify-content: space-around;
+  padding:10px;
+  margin:0 10px;
   }
 
-#hamburger{
-  display: flex;
-  margin:10px;
-  align-self: flex-start;
-  flex-flow: row;
-  }
+  .spotlightimg {
+      width:500px;
+      margin: 0 auto;
+    }
+
 
 nav{
   display:flex;
