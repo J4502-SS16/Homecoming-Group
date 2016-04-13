@@ -178,7 +178,11 @@ figure a:visited, figure a:link{
   border-right:none;
 }
 
-
+.spotlightimg{
+    width:50%;
+    margin: auto;
+  }
+  
 .figure{
 }
 
@@ -205,10 +209,6 @@ figure a:visited, figure a:link{
   flex-flow: row;
   }
 
-.spotlightimg{
-    width:50%;
-    margin: auto;
-  }
 
 nav{
   display:flex;
