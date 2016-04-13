@@ -89,9 +89,6 @@ figcaption{
   font-weight: bold;
 }
 
-.spotlightimg{
-  width:50%;
-}
 
 /* this is end of homepage only*/
 
@@ -204,6 +201,10 @@ figure a:visited, figure a:link{
   flex-flow: row;
   }
 
+.spotlightimg{
+    width:50%;
+  }
+  
 nav{
   display:flex;
   flex-flow:row;
