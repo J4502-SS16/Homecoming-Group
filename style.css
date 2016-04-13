@@ -182,8 +182,9 @@ figure a:visited, figure a:link{
     width:50%;
     margin: auto;
   }
-  
+
 .figure{
+  width:70%;
 }
 
 }
