@@ -89,8 +89,7 @@ figcaption{
   font-weight: bold;
 }
 
-
-/* this is end of homepage only*/
+/* this is end of marching mizzou only*/
 
 h3{
   width:100%;
@@ -125,6 +124,7 @@ h4{
   display:inline;
 }
 /* this is end of maps only*/
+
 
 nav a:visited, nav a:link{
   text-decoration: none;
@@ -168,6 +168,7 @@ figure a:visited, figure a:link{
 }
 /* this is end of spotlight page only*/
 
+
 @media screen and (min-width:700px){
 #hamburger{
   display:flex;
@@ -177,10 +178,9 @@ figure a:visited, figure a:link{
   border-right:none;
 }
 
-.spotlightimg{
-    width:50%;
-    margin:auto; 
-  }
+
+.figure{
+}
 
 }
 
@@ -207,6 +207,7 @@ figure a:visited, figure a:link{
 
 .spotlightimg{
     width:50%;
+    margin: auto;
   }
 
 nav{
