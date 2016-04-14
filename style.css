@@ -200,6 +200,8 @@ display:none;
       display: flex;
       width:500px;
       margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 20px;
     }
 
 
