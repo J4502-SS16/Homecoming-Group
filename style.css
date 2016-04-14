@@ -183,7 +183,8 @@ figure a:visited, figure a:link{
   }
 
 #hamburger li{
-  border-top:1px solid rgba(255,255,255,.5);
+  border-left::1px solid rgba(255,255,255,.5);
+  border-right:1px solid rgba(255,255,255,.5);
   justify-content: space-around;
   padding:10px;
   margin:0 10px;
