@@ -35,10 +35,6 @@ img{
   padding: 0px 0px 0px 20px;
 }
 
-ul {
-  list-style-type: none;
-}
-
 p {
     font-family: "Domine", serif;
     font-size: 100%;
@@ -57,10 +53,25 @@ flex-flow:row;
 justify-content: space-around;
 }
 
-nav li {
+nav ul li {
   font-size: 18px;
   padding: 4px 0;
-  font-size: 200%
+  font-size: 200%;
+  border-top: 1px #79896D solid;
+  border-left:none;
+  border-right:none;
+  display:block;
+}
+
+nav ul {
+  list-style-type: none;
+  display:none;
+}
+
+nav a:visited, nav a:link{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 footer{
@@ -126,12 +137,6 @@ h4{
 /* this is end of maps only*/
 
 
-nav a:visited, nav a:link{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
 /* this is spotlight page only*/
 .spotlightsidebar {
  clear: both;
@@ -185,6 +190,7 @@ figure a:visited, figure a:link{
 #hamburger li{
   border-left::1px solid rgba(255,255,255,.5);
   border-right:1px solid rgba(255,255,255,.5);
+  border-top:none;
   justify-content: space-around;
   padding:10px;
   margin:0 10px;
