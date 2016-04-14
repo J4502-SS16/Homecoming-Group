@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.menu-trigger').click(function(){
+  $('.logo').click(function(){
       $('nav ul').slideToggle(500);
       //500 refers to speed of how quick it slides open//
   });
