@@ -210,6 +210,11 @@ display:none;
       padding-bottom: 20px;
     }
 
+.main{
+  display:flex;
+  flex-flow: row;
+  margin: 0 auto;
+}
 
 nav{
   display:flex;
