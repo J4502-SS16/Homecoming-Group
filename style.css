@@ -47,12 +47,14 @@ p {
 nav{
   border:none;
   background-color: #F1B82D;
-  text-align: center;
   font-family: "Domine";
   font-size: 80%;
   font-weight:bold;
   width: 100%;
   height:auto;
+  display:flex;
+flex-flow:row;
+justify-content: space-around;
 }
 
 nav li {
@@ -81,11 +83,13 @@ figcaption{
 }
 /* this is end of homepage only*/
 
-
+/* this is marching mizzou only*/
 .q{
   color: #F1B82D;
   font-weight: bold;
 }
+
+/* this is end of marching mizzou only*/
 
 h3{
   width:100%;
@@ -120,6 +124,7 @@ h4{
   display:inline;
 }
 /* this is end of maps only*/
+
 
 nav a:visited, nav a:link{
   text-decoration: none;
@@ -162,3 +167,36 @@ figure a:visited, figure a:link{
   min-width: 300px;
 }
 /* this is end of spotlight page only*/
+
+
+
+@media screen and (min-width:700px){
+  #hamburger{
+    display: flex;
+    margin:10px;
+    }
+
+#hamburger ul{
+  display:flex;
+  flex-flow:row;
+  }
+
+#hamburger li{
+  border-bottom:1px solid rgba(255,255,255,.5);
+  justify-content: space-around;
+  padding:10px;
+  margin:0 10px;
+  }
+
+  .spotlightimg {
+      display: flex;
+      width:500px;
+      margin: 0 auto;
+    }
+
+
+nav{
+  display:flex;
+  flex-flow:row;
+}
+  }
