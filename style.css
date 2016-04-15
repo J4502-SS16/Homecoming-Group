@@ -46,7 +46,7 @@ nav{
   font-family: "Domine";
   font-size: 80%;
   font-weight:bold;
-  width: 100%;
+  width: 100vw;
   height:auto;
   display:flex;
 flex-flow:row;
