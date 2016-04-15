@@ -216,7 +216,7 @@ display:none;
 .main{
   display:flex;
   flex-flow: row;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 nav{
