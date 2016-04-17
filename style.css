@@ -147,7 +147,7 @@ h4{
   color: black;
   font-weight: bold;
   text-align: center;
-  padding: 4px;
+  padding-bottom: 1px;
 }
 
 .spotlightmain{
@@ -168,9 +168,20 @@ figure a:visited, figure a:link{
   font-weight: bold;
 }
 
-.avatar{
+/*changed photos' class to spotlightimg.avatar{
   width: 30%;
   min-width: 300px;
+}*/
+
+.spotlightsidebar ul{
+  display:flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: #F1B82D;
+}
+
+.spotlightsidebar{
+  padding-bottom: 10px;
 }
 /* this is end of spotlight page only*/
 
@@ -232,3 +243,16 @@ h1{
 
 
 /* this is for hamburger menu that goes with */
+
+/*beginning of Spotlight Media Query Code */
+.spotlightsidebar{
+float:left;
+}
+
+.spotlightsidebar ul{
+  display: block;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
