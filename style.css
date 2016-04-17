@@ -251,8 +251,23 @@ float:left;
 
 .spotlightsidebar ul{
   display: block;
-  font-size: 20px;
+  justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.spotlightsidebar li{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+
+h5{
+  text-align: center;
+}
+
+figcaption{
   text-align: center;
 }
