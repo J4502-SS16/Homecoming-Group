@@ -148,6 +148,7 @@ h4{
   font-weight: bold;
   text-align: center;
   padding-bottom: 1px;
+  font-size: 100%;
 }
 
 .spotlightmain{
@@ -245,30 +246,32 @@ h1{
 /* this is for hamburger menu that goes with */
 
 /*beginning of Spotlight Media Query Code */
-.spotlightsidebar{
+/*.spotlightsidebar{
 float:left;
 }
 
 .spotlightsidebar ul{
-  display: block;
-  justify-content: center;
+display: flex;
+flex-flow: row;
+  justify-content:space-around;;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 0;
 }
 
 .spotlightsidebar li{
-  font-size: 20px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 30px;
 }
+*/
 
-h5{
+.spotlightmain h5{
   text-align: center;
 }
 
-figcaption{
+.spotlightmain figcaption{
   text-align: center;
 }
 
