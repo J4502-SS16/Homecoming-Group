@@ -349,3 +349,11 @@ figure{
 }
 
 /* this is for hamburger menu that goes with */
+
+/*This is for hover text on images on the Homepage!*/
+.MarchingMizzou{
+  .display: none;
+}
+.MarchingMizzou{
+  .display: block;
+}
