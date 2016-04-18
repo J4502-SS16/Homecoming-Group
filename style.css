@@ -190,6 +190,8 @@ button{
 display:block;
 height: 20%;
 width:10%;
+background-color: #F1B82D;
+font-family: "Domine";
 }
 
 @media screen and (min-width:700px){
