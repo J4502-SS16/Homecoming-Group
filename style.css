@@ -177,7 +177,8 @@ figure a:visited, figure a:link{
 .spotlightsidebar ul{
   display:flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-left: 10px;
   background-color: #F1B82D;
 }
 
@@ -298,6 +299,11 @@ display: block;
 
 figure{
   text-align: center;
+}
+
+.spotlightpage .spotlightimg{
+  width: 50%;
+  height: 50%;
 }
 
 .spotlightmain figcaption{
