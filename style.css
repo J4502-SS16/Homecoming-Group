@@ -339,11 +339,17 @@ figure{
 }
 ​
 .greek{
-  border:4px black solid;
+  border:4px orange solid;
 }
 
 .alumni{
   border: 4px pink solid;
+}
+.lbc{
+  border: 4px green solid;
+}
+.LGBTQ{
+  border: 4px blue solid;
 }
 
 }
