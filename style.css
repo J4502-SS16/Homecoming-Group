@@ -186,7 +186,9 @@ figure a:visited, figure a:link{
 }
 /* this is end of spotlight page only*/
 
-
+button{
+  
+}
 
 @media screen and (min-width:700px){
 
