@@ -187,7 +187,7 @@ figure a:visited, figure a:link{
 /* this is end of spotlight page only*/
 
 button{
-  
+
 }
 
 @media screen and (min-width:700px){
@@ -248,8 +248,13 @@ h1{
 }
 
 /*beginning of Spotlight Media Query Code */
+.spotlightpage{
+  display: flex;
+  flex-flow: row;
+}
 .spotlightsidebar{
 float:left;
+flex:1 auto;
 }
 
 .spotlightsidebar ul{
@@ -268,9 +273,18 @@ display: block;
   border-bottom: 1px solid rgba(255,255,255,.5);
 }
 
+.spotlightmain{
+  flex:3 auto;
+}
 
 .spotlightmain h5{
-align-content: center;
+  text-align: center;
+  padding:0;
+/*align-content: center;*/
+}
+
+figure{
+  text-align: center;
 }
 
 .spotlightmain figcaption{
@@ -278,14 +292,14 @@ align-content: center;
   text-align: center;
 }
 
-.spotlightimgTruman{
+/*.spotlightimgTruman{
   display: flex;
   flex-flow: column;
   align-self: center;
   width:500px;
   padding-top: 10px;
   padding-bottom: 20px;
-}
+}*/
 /*End of Spoltlight Media Query*/
   }
 
