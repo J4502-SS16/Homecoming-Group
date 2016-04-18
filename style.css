@@ -202,6 +202,7 @@ button a:visited, figure a:link{
   font-weight: bold;
 }
 
+
 @media screen and (min-width:700px){
 
   /* this is for game page */
@@ -342,7 +343,6 @@ figure{
   border: 4px pink solid;
 }
 
-}
 }
 
 /* this is for hamburger menu that goes with */
