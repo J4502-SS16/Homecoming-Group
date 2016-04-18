@@ -197,18 +197,10 @@ font-size: 100%;
 outline:0;
 }
 
-<<<<<<< Updated upstream
 button a{
   text-decoration:none;
   color: black;
   font-weight: bold;
-=======
-button a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
->>>>>>> Stashed changes
-}
 
 /*button a:visited, button a:link, button a:active, {
   text-decoration: none;
