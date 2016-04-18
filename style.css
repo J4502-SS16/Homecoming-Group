@@ -340,16 +340,20 @@ figure{
 ​
 .greek{
   border:4px black solid;
+  padding-left: 2px;
 }
 
 .alumni{
   border: 4px pink solid;
+  padding-left: 2px;
 }
 .lbc{
   border: 4px green solid;
+  padding-left: 2px;
 }
 .LGBTQ{
   border: 4px blue solid;
+  padding-left: 2px;
 }
 
 }
