@@ -194,6 +194,7 @@ width:30%;
 background-color: #F1B82D;
 font-family: "Domine";
 font-size: 100%;
+outline:0;
 }
 
 button a:visited, figure a:link{
