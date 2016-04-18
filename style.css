@@ -321,6 +321,24 @@ figure{
 }*/
 /*End of Spoltlight Media Query*/
   }
+  .calendar{
+    display: flex;
+    flex-flow:row wrap;
+  }
+  ​
+  .calendaritem{
+    background-color:white;
+    flex: 1 auto;
+  }
+  ​
+  .greek{
+    border:4px black solid;
+  }
 
+  .alumni{
+    border: 4px pink solid;
+  }
+
+  }
 
 /* this is for hamburger menu that goes with */
