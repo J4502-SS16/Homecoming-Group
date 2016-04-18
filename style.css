@@ -187,7 +187,9 @@ figure a:visited, figure a:link{
 /* this is end of spotlight page only*/
 
 button{
-  
+display:block;
+height: 20%;
+width:10%;
 }
 
 @media screen and (min-width:700px){
