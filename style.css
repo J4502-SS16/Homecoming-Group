@@ -331,9 +331,11 @@ figure{
 .calendar{
   display: flex;
   flex-flow:row wrap;
+
+}
+​.calendar{
   justify-content: center;
 }
-​
 .calendaritem{
   background-color:white;
   flex: 1 auto;
