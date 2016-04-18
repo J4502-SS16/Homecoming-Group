@@ -272,6 +272,7 @@ flex-flow: row;
 }
 
 .spotlightmain figcaption{
+  font-size: 100%;
   text-align: center;
 }
 
