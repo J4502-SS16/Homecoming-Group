@@ -187,14 +187,27 @@ figure a:visited, figure a:link{
 /* this is end of spotlight page only*/
 
 button{
-
+display:block;
+height:20%;
+width:30%;
+background-color: #F1B82D;
+font-family: "Domine";
+font-size: 100%;
 }
 
 @media screen and (min-width:700px){
 
+  /* this is for game page */
+
   .tigerkickoff{
     width: 60%;
   }
+ button{
+   width:20%;
+ }
+  /* this is for end of game page */
+
+
   /* this is for hamburger menu and navigation */
   #hamburger{
     display: flex;
