@@ -309,7 +309,9 @@ figure{
   text-align: center;
 }
 
-
+.spotlightmain img{
+  width:350px;
+}
 
 .spotlightmain figcaption{
   font-size: 100%;
