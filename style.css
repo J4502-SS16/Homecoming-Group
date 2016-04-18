@@ -201,12 +201,7 @@ button a{
   text-decoration:none;
   color: black;
   font-weight: bold;
-
-/*button a:visited, button a:link, button a:active, {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}*/
+}
 
 
 @media screen and (min-width:700px){
