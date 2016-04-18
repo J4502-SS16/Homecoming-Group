@@ -197,7 +197,7 @@ font-size: 100%;
 outline:0;
 }
 
-button a:visited, figure a:link{
+button a:visited, button a:link, button a:active {
   text-decoration: none;
   color: black;
   font-weight: bold;
