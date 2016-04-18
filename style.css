@@ -188,8 +188,7 @@ figure a:visited, figure a:link{
 
 button{
 display:block;
-height: 20%;
-width:10%;
+width:30%;
 background-color: #F1B82D;
 font-family: "Domine";
 }
