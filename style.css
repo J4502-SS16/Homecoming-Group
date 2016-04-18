@@ -195,6 +195,11 @@ background-color: #F1B82D;
 font-family: "Domine";
 font-size: 100%;
 }
+button a:visited, figure a:link{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 
 @media screen and (min-width:700px){
 
