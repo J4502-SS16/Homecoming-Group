@@ -327,7 +327,7 @@ figure{
   padding-bottom: 20px;
 }*/
 /*End of Spoltlight Media Query*/
-
+}
 .calendar{
   display: flex;
   flex-flow:row wrap;
