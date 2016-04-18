@@ -244,19 +244,14 @@ nav{
 h1{
   font-size: 100%;
 }
-  }
-
-
-/* this is for hamburger menu that goes with */
 
 /*beginning of Spotlight Media Query Code */
-/*.spotlightsidebar{
+.spotlightsidebar{
 float:left;
 }
 
 .spotlightsidebar ul{
-display: flex;
-flex-flow: row;
+display: block;
   justify-content:space-around;;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -268,11 +263,12 @@ flex-flow: row;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 30px;
+  border-bottom: 1px solid rgba(255,255,255,.5);
 }
-*/
+
 
 .spotlightmain h5{
-  text-align: center;
+align-self: center;
 }
 
 .spotlightmain figcaption{
@@ -280,4 +276,16 @@ flex-flow: row;
   text-align: center;
 }
 
+.spotlightimgTruman{
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+  width:500px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 /*End of Spoltlight Media Query*/
+  }
+
+
+/* this is for hamburger menu that goes with */
