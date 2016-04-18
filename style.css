@@ -197,9 +197,17 @@ font-size: 100%;
 
 @media screen and (min-width:700px){
 
+  /* this is for game page */
+
   .tigerkickoff{
     width: 60%;
   }
+ button{
+   width:10%;
+ }
+  /* this is for end of game page */
+
+
   /* this is for hamburger menu and navigation */
   #hamburger{
     display: flex;
