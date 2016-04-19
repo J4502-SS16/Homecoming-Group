@@ -337,9 +337,10 @@ figure{
   justify-content: center;
 }
 .calendaritem{
-  background-color:white;
+  background-color: white;
   flex: 1 auto;
   padding: inherit;
+  outline-offset: 20px white
 }
 
 .greek {
