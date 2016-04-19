@@ -339,15 +339,16 @@ figure{
 .calendaritem{
   background-color:white;
   flex: 1 auto;
+  padding: inherit;
 }
 
 .greek {
-  border: 4px black solid;
+  border: 4px #000080 solid;
 
 }
 
 .alumni{
-  border: 4px pink solid;
+  border: 4px #B22222 solid;
 
 }
 .lbc{
