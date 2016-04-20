@@ -2,7 +2,7 @@
 /* this is on every page*/
 header {
     font-size: 35px;
-    width: 100%;
+    width: 100vw;
     background-color: black;
     color: white;
     padding: 4px;
@@ -12,13 +12,13 @@ header {
 
 h1{
   font-family: "Domine";
-  font-size: 100%;
+  font-size: 50%;
 }
 
 .center {
   margin-left: auto;
   margin-right: auto;
-   width: 100%;
+   width: 100vw;
    height:auto;
    text-align: center;
    display: block;
@@ -30,7 +30,7 @@ img{
 }
 
 .logo{
-  width:40px;
+  width: 40px;
   float: left;
   padding: 0px 0px 0px 20px;
 }
@@ -46,7 +46,7 @@ nav{
   font-family: "Domine";
   font-size: 80%;
   font-weight:bold;
-  width: 100%;
+  width: 100vw;
   height:auto;
   display:flex;
 flex-flow:row;
@@ -143,10 +143,12 @@ h4{
 }
 
 .spotlightsidebar li{
+  list-style-type: none;
   color: black;
   font-weight: bold;
   text-align: center;
-  padding: 4px;
+  padding-bottom: 1px;
+  font-size: 100%;
 }
 
 .spotlightmain{
@@ -167,15 +169,54 @@ figure a:visited, figure a:link{
   font-weight: bold;
 }
 
-.avatar{
+/*changed photos' class to spotlightimg.avatar{
   width: 30%;
   min-width: 300px;
+}*/
+
+.spotlightsidebar ul{
+  display:flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding-left: 10px;
+  background-color: #F1B82D;
+}
+
+.spotlightsidebar{
+  padding-bottom: 10px;
 }
 /* this is end of spotlight page only*/
 
+button{
+display:block;
+height:20%;
+width:30%;
+background-color: #F1B82D;
+font-family: "Domine";
+font-size: 100%;
+outline:0;
+}
+
+button a{
+  text-decoration:none;
+  color: black;
+  font-weight: bold;
+}
 
 
 @media screen and (min-width:700px){
+
+  /* this is for game page */
+
+  .tigerkickoff{
+    width: 60%;
+  }
+ button{
+   width:20%;
+ }
+  /* this is for end of game page */
+
+
   /* this is for hamburger menu and navigation */
   #hamburger{
     display: flex;
@@ -187,14 +228,17 @@ figure a:visited, figure a:link{
   flex-flow:row;
   }
 
-#hamburger li{
-  border-left::1px solid rgba(255,255,255,.5);
-  border-right:1px solid rgba(255,255,255,.5);
+#hamburger li {
+  border-left:1px solid rgba(255,255,255,.5);
   border-top:none;
   justify-content: space-around;
   padding:10px;
   margin:0 10px;
   }
+
+ #hamburger li:last-child {
+     border-right:1px solid rgba(255,255,255,.5);
+ }
 
 .logo{
 display:none;
@@ -213,14 +257,122 @@ display:none;
 .main{
   display:flex;
   flex-flow: row;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 nav{
   display:flex;
   flex-flow:row;
 }
-  }
 
+h1{
+  font-size: 100%;
+}
+
+/*beginning of Spotlight Media Query Code */
+.spotlightpage{
+  display: flex;
+  flex-flow: row;
+}
+.spotlightsidebar{
+float:left;
+flex:1 auto;
+}
+
+.spotlightsidebar ul{
+display: block;
+  justify-content:space-around;;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 0;
+}
+
+.spotlightsidebar li{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+.spotlightmain{
+  flex:3 auto;
+}
+
+.spotlightmain h5{
+  text-align: center;
+  padding:0;
+/*align-content: center;*/
+}
+
+figure{
+  text-align: center;
+}
+
+.spotlightmain img{
+  width:350px;
+}
+
+.spotlightmain figcaption{
+  font-size: 100%;
+  text-align: center;
+}
+
+/*.spotlightimgTruman{
+  display: flex;
+  flex-flow: column;
+  align-self: center;
+  width:500px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}*/
+/*End of Spoltlight Media Query*/
+}
+.calendar{
+  display: flex;
+  flex-flow:row wrap;
+
+}
+​.calendar{
+  justify-content: center;
+}
+.calendaritem{
+  background-color: white;
+  flex: 1 auto;
+  padding: inherit;
+  outline-offset: 20px white
+}
+
+.greek {
+  border: 4px #000080 solid;
+
+}
+
+.alumni{
+  border: 4px #B22222 solid;
+
+}
+.lbc{
+  border: 4px green solid;
+
+}
+.LGBTQ{
+  border: 4px #9400D3 solid;
+
+}
+.calendar{
+  padding-left:10px;
+  font: Domine;
+}
+
+}
 
 /* this is for hamburger menu that goes with */
+
+/*This is for hover text on images on the Homepage!*/
+.MarchingMizzou{
+  .display: none;
+}
+.MarchingMizzou{
+  .display: block;
+}
