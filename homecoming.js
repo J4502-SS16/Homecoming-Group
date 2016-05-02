@@ -11,3 +11,16 @@ $(document).ready(function(){
     //700 refers to size of screen that its displaying on//
   });
 });
+//this is for pop up text on homepage images//
+var item = document.getElementById("MarchingMizzou");
+item.addEventListener("mousover", func, false);
+item.addEventListener("mousout", func1, false);
+
+function func()
+{
+  document.getElementByID("text").setAttribute("style", "display:block;")
+}
+function func1()
+{
+  document.getElementById("text").setAttribute("style", "display:block;")
+}

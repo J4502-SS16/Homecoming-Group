@@ -369,4 +369,18 @@ figure{
 
 /* this is for hamburger menu that goes with */
 
-/*This is for hover text on images on the Homepage!*/
+#MarchingMizzou {
+  position:absolute;
+  left:0;
+  top:0;
+}
+#text {
+  display:none;
+  z-index:100;
+  position:absolute;
+  color: black;
+  font-size:24px;
+  font-weight: bold;
+  left:150px;
+  top:350px;
+}
