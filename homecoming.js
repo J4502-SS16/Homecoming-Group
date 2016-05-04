@@ -12,9 +12,12 @@ $(document).ready(function(){
   });
 });
 //this is for pop up text on homepage images//
-var item = document.getElementById("MarchingMizzou");
-item.addEventListener("mousover", func, false);
-item.addEventListener("mousout", func1, false);
+
+
+/*var item = document.getElementById("MarchingMizzou");
+item.addEventListener("mouseover", func, false);
+item.addEventListener("mouseout", func1, false);
+
 
 function func()
 {
