@@ -369,7 +369,7 @@ figure{
 
 /* this is for hamburger menu that goes with */
 
-#MarchingMizzou {
+.spotlighting #MarchingMizzou {
   position:absolute;
   left:0;
   top:0;
@@ -378,15 +378,21 @@ figure{
   display: none;
   z-index:100;
   position:absolute;
-  color: black;
+  text-align: center;
+  color: white;
+  background-color:rgba(0,0, 1, 0.5);
+  padding: 5px 100px;
   font-size:24px;
   font-weight: bold;
-  left:150px;
-  top:350px;
+  left:450px;
+  top:410px;
 }
 
-
-
-#text p:hover{
-  display:block;
+#overlay{
+  opaciy:0;
 }
+
+#overlay:hover{
+  opacity:1;
+}
+/*This is text hover over homepage images*/
