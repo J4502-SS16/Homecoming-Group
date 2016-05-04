@@ -375,7 +375,7 @@ figure{
   top:0;
 }
 #text {
-  display:none;
+  display: none;
   z-index:100;
   position:absolute;
   color: black;
@@ -383,4 +383,10 @@ figure{
   font-weight: bold;
   left:150px;
   top:350px;
+}
+
+
+
+#text p:hover{
+  display:block;
 }
