@@ -333,7 +333,6 @@ figure{
   flex-flow:row wrap;
   margin-left: auto;
   margin-right: auto;
-  outline-offset: 20px white
 
 }
 ​.calendar{
@@ -341,12 +340,13 @@ figure{
 }
 .calendaritem{
   display: block;
+  flex-flow: column;
   text-align: left;
   align-items: center;
-  margin-left: 500;
+  margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-right: : 10px
   padding-left: 10px
   outline-offset: 20px white
