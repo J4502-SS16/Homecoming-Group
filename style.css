@@ -329,24 +329,24 @@ figure{
 /*End of Spoltlight Media Query*/
 }
 .calendar{
-  display: flex;;
-  flex-flow:row;
-  text-align: center;
+  display: block;
+  float:left;
   height:10px
   width:30px
   padding:5px
-}
 
+
+}
 ​.calendar{
   justify-content: center;
 }
 .calendaritem{
   display: block;
-  float:center;
+  float:right;
    flex-flow: column;
-   margin-top: auto;
-   width:200px;
-   height: 80px;
+   margin-top: auo;
+   margin-left: 150px;
+   margin-right: 150px;
    padding-top: 10px;
    padding-bottom: 10px;
    padding-right: : 10px
