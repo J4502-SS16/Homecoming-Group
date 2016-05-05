@@ -339,17 +339,16 @@ figure{
 .calendaritem{
   display: flex;
   flex: column
-  justify-content:space-around;;
+  float:center;
   background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
   outline-offset: 20px white
 }
-.calendaritem h2{
+.calendaritem p1{
   font-family: "Domine", serif;
   font-size: 25px;
   font-weight: bold;
-  padding: 20px 0px 4px 0px;
   display:inline;
 }
 
