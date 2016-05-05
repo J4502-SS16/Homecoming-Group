@@ -341,6 +341,7 @@ figure{
   display: flex;
   flex: column
   text-align: left;
+  align-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: : 10px
