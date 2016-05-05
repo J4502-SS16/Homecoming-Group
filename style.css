@@ -337,10 +337,18 @@ figure{
   justify-content: center;
 }
 .calendaritem{
+  display: flex;
+  flex: column
   background-color: white;
-  flex: 1 auto;
   padding: inherit;
   outline-offset: 20px white
+}
+.calendaritem h2{
+  font-family: "Domine", serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 0px 4px 0px;
+  display:inline;
 }
 
 .greek {
