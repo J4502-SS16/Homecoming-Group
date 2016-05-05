@@ -331,6 +331,7 @@ figure{
 .calendar{
   display: flex;
   flex-flow:row wrap;
+  outline-offset: 20px white
 
 }
 ​.calendar{
@@ -339,17 +340,12 @@ figure{
 .calendaritem{
   display: flex;
   flex: column
-  float:center;
-  background-color: white;
+  text-align: left;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: : 10px
+  padding-left: 10px
   outline-offset: 20px white
-}
-.calendaritem p1{
-  font-family: "Domine", serif;
-  font-size: 25px;
-  font-weight: bold;
-  display:inline;
 }
 
 .greek {
