@@ -330,7 +330,8 @@ figure{
 }
 .calendar{
   display: flex;;
-  flex-flow: row;
+  flex-flow: column;
+  float: left;
   margin-left: 5px
 }
 ​.calendar{
