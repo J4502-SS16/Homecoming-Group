@@ -348,30 +348,30 @@ figure{
   font-size: 10px;
   font-weight: bold;
 
-
-
 .greek {
+  border: 4px #000080 solid;
   background-color: #000080
-
 }
 
 .alumni{
+  border: 4px #B22222 solid;
   background-color: #B22222
-
 }
+
 .lbc{
+  border: 4px #green solid;
   background-color: green
-
 }
+
 .LGBTQ{
+  border: 4px #9400D3 solid;
   background-color: #9400D3
-
 }
+
 .calendar{
   padding-left:10px;
   font: Domine;
 }
-
 }
 
 /* this is for hamburger menu that goes with */
