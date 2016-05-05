@@ -331,7 +331,6 @@ figure{
 .calendar{
   display: flex;
   flex-flow:row wrap;
-  text-align: center;
 
 }
 ​.calendar{
@@ -342,7 +341,8 @@ figure{
   flex: column
   justify-content:space-around;;
   background-color: white;
-  padding: inherit;
+  padding-top: 30px;
+  padding-bottom: 30px;
   outline-offset: 20px white
 }
 .calendaritem h2{
