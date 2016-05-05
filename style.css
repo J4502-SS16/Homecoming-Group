@@ -329,10 +329,12 @@ figure{
 /*End of Spoltlight Media Query*/
 }
 .calendar{
-  display: flex;
-  flex-flow:row wrap;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  float:left;
+  height:10px
+  width:30px
+  padding:5px
+
 
 }
 ​.calendar{
@@ -340,7 +342,7 @@ figure{
 }
 .calendaritem{
   display: block;
-  float:center
+  float:right;
    flex-flow: column;
    margin-top: auo;
    margin-left: 150px;
