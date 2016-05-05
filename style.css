@@ -338,8 +338,8 @@ figure{
   justify-content: center;
 }
 .calendaritem{
-  display: flex;
-  flex: column
+  display: block;
+  justify-content:space-around;
   text-align: left;
   align-content: center;
   padding-top: 30px;
