@@ -354,19 +354,23 @@ figure{
 }
 
 .greek {
-  border: 4px #000080 solid;
+  border: 4px #EBCB8B solid;
+  background-color: #EBCB8B
 }
 
 .alumni{
-  border: 4px #B22222 solid;
+  border: 4px #8FA1B3 solid;
+  background-color: #8FA1B3
 }
 
 .lbc{
-  border: 4px #green solid;
+  border: 4px #A3BE8C solid;
+  background-color: #A3BE8C
 }
 
 .LGBTQ{
-  border: 4px #9400D3 solid;
+  border: 4px #BF616A solid;
+  background-color: #BF616A
 }
 
 .calendar{
