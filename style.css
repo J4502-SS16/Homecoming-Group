@@ -339,10 +339,8 @@ figure{
 }
 .calendaritem{
   display: block;
-  flex:column
-  float:center;
   text-align: left;
-  align-content: center;
+  align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: : 10px
