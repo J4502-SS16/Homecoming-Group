@@ -340,10 +340,11 @@ figure{
 }
 .calendaritem{
   display: block;
+  float:center
    flex-flow: column;
-   margin-top: auto;
-   margin-left: auto;
-   margin-right: auto;
+   margin-top: auo;
+   margin-left: 150px;
+   margin-right: 150px;
    padding-top: 10px;
    padding-bottom: 10px;
    padding-right: : 10px
