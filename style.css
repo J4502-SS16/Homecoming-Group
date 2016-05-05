@@ -345,18 +345,22 @@ figure{
 
 .greek {
   border: 4px #000080 solid;
+  background-color: #000080
 }
 
 .alumni{
   border: 4px #B22222 solid;
+  background-color: #B2222
 }
 
 .lbc{
   border: 4px #green solid;
+  background-color: #green
 }
 
 .LGBTQ{
   border: 4px #9400D3 solid;
+  background-color: #9400D3
 }
 
 .calendar{
