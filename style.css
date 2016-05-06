@@ -382,18 +382,18 @@ figure{
 
 /* this is for hamburger menu that goes with */
 
-.spotlighting #MarchingMizzou {
+.spotlightimg #MarchingMizzou {
   position:absolute;
   left:0;
   top:0;
 }
 #text {
-  display: none;
+  
   z-index:100;
   position:absolute;
   text-align: center;
   color: white;
-  background-color:rgba(0,0, 1, 0.5);
+  background-color:rgba(0, 0, 1, 0.5);
   padding: 5px 100px;
   font-size:24px;
   font-weight: bold;
