@@ -95,11 +95,28 @@ figcaption{
 /* this is end of homepage only*/
 
 /* this is marching mizzou only*/
+.spotlight-storybody{
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+}
+
 .q{
   color: #F1B82D;
   font-weight: bold;
 }
 
+.MMsidebar{
+  flex:0.5;
+}
+
+.MMmain{
+  flex:2;
+}
+
+.MMsidebar2{
+  flex:0.5;
+}
 /* this is end of marching mizzou only*/
 
 h3{
@@ -388,7 +405,7 @@ figure{
   top:0;
 }
 #text {
-  
+
   z-index:100;
   position:absolute;
   text-align: center;
