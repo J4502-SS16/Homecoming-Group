@@ -94,7 +94,7 @@ figcaption{
 }
 /* this is end of homepage only*/
 
-/* this is marching mizzou only*/
+/* this is marching mizzou only
 .spotlight-storybody{
   display:flex;
   flex-flow:row;
@@ -117,7 +117,7 @@ figcaption{
 .MMsidebar2{
   flex:0.5;
 }
-/* this is end of marching mizzou only*/
+this is end of marching mizzou only*/
 
 h3{
   width:100%;
@@ -222,6 +222,24 @@ button a{
 
 
 @media screen and (min-width:700px){
+
+  /*Marching Mizzou stuff*/
+  .spotlight-storybody{
+    display: flex;
+    flex-flow: row;
+  }
+  .MMsidebar{
+    flex:0.5;
+  }
+
+  .MMmain{
+    flex:2;
+  }
+
+  .MMsidebar2{
+    flex:0.5;
+  }
+  /* End of Marching Mizzou */
 
   /* this is for game page */
 
