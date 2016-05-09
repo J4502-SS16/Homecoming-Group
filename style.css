@@ -460,7 +460,7 @@ figure{
   left:0;
   top:0;
 }
-#text {
+/*#text {
 <<<<<<< HEAD
 =======
 
@@ -490,7 +490,7 @@ figure{
   left:0;
   top:0;
 }*/
-#text1 {
+/*#text1 {
   z-index:100;
   position:absolute;
   text-align: center;
@@ -515,7 +515,7 @@ figure{
   left: 0;
   top: 0;
 }*/
-#text2 {
+/*#text2 {
   z-index:100;
   position:absolute;
   text-align: center;
