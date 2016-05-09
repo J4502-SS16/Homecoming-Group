@@ -524,8 +524,23 @@ figure{
   padding-bottom: 20px;
 }*/
 /*End of Spoltlight Media Query*/
+.Faq{
+  display: flex;
+  flex-grow: row;
+  justify-content: space-between;
+}
 
+.Faqm{
+  flex:2;
+}
+.faqad{
+  flex:1;
+}
 
+.faqad img{
+  width:75%;
+  height: 1000px;
+}
 /*this calendar page only*/
 
 
