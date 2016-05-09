@@ -145,6 +145,58 @@ h4{
 }
 /* this is end of maps only*/
 
+/*this is calendar only for mobile*/
+
+.calendar{
+  display: flex;;
+  flex-flow: column;
+  float: left;
+  margin-left: 5px
+}
+
+.calendar{justify-content: center;}
+
+.calendaritem{
+  display: block;
+  float:right;
+   flex-flow: column;
+   margin-top: auto;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+  text-align: left;
+  outline-offset: 20px;
+}
+.calendaritem p1{
+  font-weight: bold
+}
+
+.greek {
+  border: 4px #EBCB8B solid;
+  background-color: #EBCB8B
+}
+
+.alumni{
+  border: 4px #8FA1B3 solid;
+  background-color: #8FA1B3
+}
+
+.lbc{
+  border: 4px #A3BE8C solid;
+  background-color: #A3BE8C
+}
+
+.LGBTQ{
+  border: 4px #BF616A solid;
+  background-color: #BF616A
+}
+
+.calendar{
+  padding-left:10px;
+  font: Domine;
+}
+/* end of calendar only mobile*/
 
 /* this is spotlight page only*/
 .spotlightsidebar1{
@@ -263,6 +315,7 @@ button {
   width:100%;
   height:50%;
 }
+
 @media screen and (min-width:700px){
 
 .gamedaypage{
@@ -519,10 +572,6 @@ figure{
 .LGBTQ{
   border: 4px #BF616A solid;
   background-color: #BF616A
-}
-
-h6{
-  font-weight: bold;
 }
 
 .calendar{
