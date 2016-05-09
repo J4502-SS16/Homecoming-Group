@@ -218,6 +218,17 @@ figure a:visited, figure a:link{
 .spotlightsidebar{
   padding-bottom: 10px;
 }
+
+.spotlightsidebar1 img{
+  width:100%;
+  height:50%;
+  padding-bottom: 25%;
+}
+
+.spotlightsidebar2 img{
+  width:100%;
+  height:50%;
+}
 /* this is end of spotlight page only*/
 
 button{
@@ -254,7 +265,7 @@ button {
   color: #F1B82D;
 }
 
-.gamedayad img{
+.gamedayad{
   padding-top: 25%;
   width:100%;
   height:50%;
@@ -417,6 +428,16 @@ figure{
 .spotlightmain figcaption{
   font-size: 100%;
   text-align: center;
+}
+
+.spotlightsidebar1 img{
+  width:200px;
+  height:1000px;
+}
+
+.spotlightsidebar2 img{
+  width:200px;
+  height:1000px;
 }
 
 /*.spotlightimgTruman{
