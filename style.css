@@ -519,6 +519,7 @@ figure{
 .LGBTQ{
   border: 4px #BF616A solid;
   background-color: #BF616A
+  padding: 0px, 0px, 5px, 0px;
 }
 
 .calendar{
