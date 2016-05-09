@@ -94,13 +94,30 @@ figcaption{
 }
 /* this is end of homepage only*/
 
-/* this is marching mizzou only*/
+/*this is marching mizzou only*/
 .q{
   color: #F1B82D;
   font-weight: bold;
 }
 
-/* this is end of marching mizzou only*/
+.spotlight-storybody{
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+}
+
+.MMsidebar{
+  flex:0.5;
+}
+
+.MMmain{
+  flex:2;
+}
+
+.MMsidebar2{
+  flex:0.5;
+}
+/*this is end of marching mizzou only*/
 
 h3{
   width:100%;
@@ -138,8 +155,25 @@ h4{
 
 
 /* this is spotlight page only*/
+.spotlightsidebar1{
+  text-align: center;
+  align-content: center;
+}
+
+.spotlightsidebar2{
+  align-content: center;
+}
+
+.spotlightpage a:hover{
+  color:grey;
+}
 .spotlightsidebar {
  clear: both;
+}
+
+.spotlightsidebar a{
+  color:black;
+  text-decoration: none;
 }
 
 .spotlightsidebar li{
@@ -197,14 +231,39 @@ font-size: 100%;
 outline:0;
 }
 
-button a{
+button {
   text-decoration:none;
   color: black;
   font-weight: bold;
 }
 
+.game a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 
 @media screen and (min-width:700px){
+
+  /*Marching Mizzou stuff*/
+  .spotlight-storybody{
+    display: flex;
+    flex-flow: row;
+  }
+  .MMsidebar{
+    flex:0.5;
+    margin-right: 50px;
+  }
+
+  .MMmain{
+    flex:2;
+  }
+
+  .MMsidebar2{
+    flex:0.5;
+    margin-left: 50px;
+  }
+  /* End of Marching Mizzou */
 
   /* this is for game page */
 
@@ -273,20 +332,34 @@ h1{
 .spotlightpage{
   display: flex;
   flex-flow: row;
+  justify-content: space-between;
 }
-.spotlightsidebar{
+.spotlightsidebar1{
 float:left;
-flex:1 auto;
+flex:.5;
+}
+
+.spotlightsidebar2{
+  flex:.5;
 }
 
 .spotlightsidebar ul{
-display: block;
-  justify-content:space-around;;
+display: flex;
+flex-flow: column;
+  justify-content:space-around;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 0;
+  height:400px;
 }
 
+.spotlightsidebar1 img{
+  margin-top:100px;
+}
+
+.spotlightsidebar li:last-child{
+  border-bottom: none;
+}
 .spotlightsidebar li{
   text-align: center;
   padding-top: 10px;
@@ -296,7 +369,7 @@ display: block;
 }
 
 .spotlightmain{
-  flex:3 auto;
+  flex:3;
 }
 
 .spotlightmain h5{
@@ -388,6 +461,10 @@ figure{
   top:0;
 }
 #text {
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
   z-index:100;
   position:absolute;
   text-align: center;
@@ -422,8 +499,8 @@ figure{
   padding: 5px 100px;
   font-size:24px;
   font-weight: bold;
-  left:405px;
-  top:700px;
+  left:430px;
+  top:985px;
 }
 /*#overlay span{
   opacity:0;
@@ -447,8 +524,8 @@ figure{
   padding: 5px 100px;
   font-size:24px;
   font-weight: bold;
-  left:300px;
-  top:300px;
+  left:430px;
+  top:1355px;
 }
 /*#overlay span{
   opacity:0;
