@@ -401,6 +401,13 @@ figure{
 }*/
 /*End of Spoltlight Media Query*/
 }
+
+/*this calendar page only*/
+
+p2{
+  text-indent: 10px;
+}
+
 .calendar{
   display: flex;;
   flex-flow: column;
@@ -452,6 +459,8 @@ figure{
   font: Domine;
 }
 }
+
+/*this calendar page only*/
 
 /* this is for hamburger menu that goes with */
 
