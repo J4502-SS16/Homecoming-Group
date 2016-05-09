@@ -203,10 +203,10 @@ figure a:visited, figure a:link{
   font-weight: bold;
 }
 
-/*changed photos' class to spotlightimg.avatar{
+/*changed photos' class to spotlightimg*/.avatar{
   width: 30%;
   min-width: 300px;
-}*/
+}
 
 .spotlightsidebar ul{
   display:flex;
