@@ -99,7 +99,7 @@ figcaption{
   color: #F1B82D;
   font-weight: bold;
 }
-/*
+
 .spotlight-storybody{
   display:flex;
   flex-flow:row;
@@ -166,7 +166,6 @@ h4{
 
 .spotlightpage a:hover{
   color:grey;
-  text-decoration: underline;
 }
 .spotlightsidebar {
  clear: both;
@@ -232,12 +231,17 @@ font-size: 100%;
 outline:0;
 }
 
-button a{
+button {
   text-decoration:none;
   color: black;
   font-weight: bold;
 }
 
+.game a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 
 @media screen and (min-width:700px){
 
@@ -340,21 +344,28 @@ flex:.5;
 }
 
 .spotlightsidebar ul{
-display: block;
+display: flex;
+flex-flow: column;
+  justify-content:space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-right: 0;
-  height:500px;
+  height:400px;
 }
 
-.spotlightsidebar li{
-  text-align: center;
-  padding-top: 62px;
-  padding-bottom: 62px;
-  padding-right: 30px;
-  border-bottom: 1px solid rgba(255,255,255,.5);
+.spotlightsidebar1 img{
+  margin-top:100px;
 }
 
 .spotlightsidebar li:last-child{
-  border-bottom:none;
+  border-bottom: none;
+}
+.spotlightsidebar li{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  border-bottom: 1px solid rgba(255,255,255,.5);
 }
 
 .spotlightmain{
