@@ -521,6 +521,9 @@ figure{
   background-color: #BF616A
 }
 
+h5{
+  font-weight: bold;
+}
 .calendar{
   padding-left:10px;
   font: Domine;
