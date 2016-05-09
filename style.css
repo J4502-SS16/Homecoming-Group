@@ -256,6 +256,18 @@ button {
 
 @media screen and (min-width:700px){
 
+.gamedaypage{
+  display:flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.maingame{
+  flow:3;
+}
+.gamedayad{
+  flow: .5;
+  width: 250px;
+}
   /*Marching Mizzou stuff*/
   .spotlight-storybody{
     display: flex;
