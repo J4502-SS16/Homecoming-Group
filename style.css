@@ -100,6 +100,16 @@ figcaption{
   font-weight: bold;
 }
 
+.MMsidebar img{
+  width:100%;
+  height:200px;
+  padding-bottom: 10%;
+}
+
+.MMsidebar2 img{
+  width:100%;
+  height: 200px;
+}
 /*this is end of marching mizzou only*/
 
 h3{
@@ -284,6 +294,17 @@ button {
   .MMsidebar2{
     flex:0.5;
     margin-left: 50px;
+  }
+
+  .MMsidebar img{
+    width:100%;
+    height:1000px;
+    padding-bottom: 10%;
+  }
+
+  .MMsidebar2 img{
+    width:100%;
+    height: 1000px;
   }
   /* End of Marching Mizzou */
 
