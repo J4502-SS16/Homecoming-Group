@@ -418,9 +418,8 @@ h3{
   float: left;
   margin-left: 5px
 }
-​.calendar{
-  justify-content: center;
-}
+
+.calendar{justify-content: center;}
 
 .calendaritem{
   display: block;
@@ -429,10 +428,10 @@ h3{
    margin-top: auto;
    padding-top: 10px;
    padding-bottom: 10px;
-   padding-right: : 10px
-   padding-left: 10px
+   padding-right: 10px;
+   padding-left: 10px;
   text-align: left;
-  outline-offset: 20px white
+  outline-offset: 20px;
 }
 .calendaritem p1{
   font-weight: bold
@@ -462,22 +461,17 @@ h3{
   padding-left:10px;
   font: Domine;
 }
-}
 
 /*this calendar page only*/
 
 /* this is for hamburger menu that goes with */
 
-.spotlightimg {
+/*.spotlightimg {
   position:absolute;
   left:0;
   top:0;
-}
+}*/
 /*#text {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   z-index:100;
   position:absolute;
   text-align: center;
