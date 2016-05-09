@@ -122,7 +122,6 @@ figcaption{
 h3{
   width:100%;
   text-align: center;
-  font-size: 32px;
 }
 
 h1 a:link{
@@ -241,6 +240,18 @@ button {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+.gameday{
+  font-family: "Domine";
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.infog{
+  font-size: 120%;
+  font-weight: bold;
+  color: #F1B82D;
 }
 
 @media screen and (min-width:700px){
