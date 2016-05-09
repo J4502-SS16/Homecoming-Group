@@ -100,23 +100,6 @@ figcaption{
   font-weight: bold;
 }
 
-.spotlight-storybody{
-  display:flex;
-  flex-flow:row;
-  justify-content: center;
-}
-
-.MMsidebar{
-  flex:0.5;
-}
-
-.MMmain{
-  flex:2;
-}
-
-.MMsidebar2{
-  flex:0.5;
-}
 /*this is end of marching mizzou only*/
 
 h3{
@@ -415,6 +398,24 @@ flex-flow: column;
   text-align: center;
   padding:0;
 /*align-content: center;*/
+}
+
+.spotlight-storybody{
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+}
+
+.MMsidebar{
+  flex:0.5;
+}
+
+.MMmain{
+  flex:2;
+}
+
+.MMsidebar2{
+  flex:0.5;
 }
 
 figure{
