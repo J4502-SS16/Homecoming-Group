@@ -12,18 +12,3 @@ $(document).ready(function(){
   });
 });
 //this is for pop up text on homepage images//
-
-
-/*var item = document.getElementById("MarchingMizzou");
-item.addEventListener("mouseover", func, false);
-item.addEventListener("mouseout", func1, false);
-
-
-function func()
-{
-  document.getElementByID("text").setAttribute("style", "display:block;")
-}
-function func1()
-{
-  document.getElementById("text").setAttribute("style", "display:block;")
-}
