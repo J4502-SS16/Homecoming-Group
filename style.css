@@ -94,16 +94,16 @@ figcaption{
 }
 /* this is end of homepage only*/
 
-/* this is marching mizzou only
+/*this is marching mizzou only*/
+.q{
+  color: #F1B82D;
+  font-weight: bold;
+}
+/*
 .spotlight-storybody{
   display:flex;
   flex-flow:row;
   justify-content: center;
-}
-
-.q{
-  color: #F1B82D;
-  font-weight: bold;
 }
 
 .MMsidebar{
@@ -117,7 +117,7 @@ figcaption{
 .MMsidebar2{
   flex:0.5;
 }
-this is end of marching mizzou only*/
+/*this is end of marching mizzou only*/
 
 h3{
   width:100%;
@@ -248,6 +248,7 @@ button a{
   }
   .MMsidebar{
     flex:0.5;
+    margin-right: 50px;
   }
 
   .MMmain{
@@ -256,6 +257,7 @@ button a{
 
   .MMsidebar2{
     flex:0.5;
+    margin-left: 50px;
   }
   /* End of Marching Mizzou */
 
@@ -339,18 +341,20 @@ flex:.5;
 
 .spotlightsidebar ul{
 display: block;
-  justify-content:space-around;;
-  padding-top: 30px;
-  padding-bottom: 30px;
   padding-right: 0;
+  height:500px;
 }
 
 .spotlightsidebar li{
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 62px;
+  padding-bottom: 62px;
   padding-right: 30px;
   border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+.spotlightsidebar li:last-child{
+  border-bottom:none;
 }
 
 .spotlightmain{
