@@ -400,7 +400,17 @@ figure{
   padding-bottom: 20px;
 }*/
 /*End of Spoltlight Media Query*/
+
+
+/*this calendar page only*/
+
+h3{
+  text-indent: 2px;
+  font-size: 12px;
+  font-family: domine, serif;
+  padding-bottom: 0px;
 }
+
 .calendar{
   display: flex;;
   flex-flow: column;
@@ -453,15 +463,20 @@ figure{
 }
 }
 
+/*this calendar page only*/
+
 /* this is for hamburger menu that goes with */
 
-.spotlightimg #MarchingMizzou {
+.spotlightimg {
   position:absolute;
   left:0;
   top:0;
 }
-#text {
+/*#text {
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/master
   z-index:100;
   position:absolute;
   text-align: center;
@@ -470,15 +485,65 @@ figure{
   padding: 5px 100px;
   font-size:24px;
   font-weight: bold;
-  left:450px;
+  left:405px;
   top:410px;
 }
-
-#overlay{
-  opaciy:0;
+/*
+.overlay span{
+  opacity:0;
 }
 
-#overlay:hover{
+.overlay:hover span{
   opacity:1;
 }
+
+/*.spotlightimg #ParadeRoute {
+  position: absolute;
+  left:0;
+  top:0;
+}*/
+/*#text1 {
+  z-index:100;
+  position:absolute;
+  text-align: center;
+  color: white;
+  background-color:rgba(0, 0, 1, 0.5);
+  padding: 5px 100px;
+  font-size:24px;
+  font-weight: bold;
+  left:430px;
+  top:985px;
+}
+/*#overlay span{
+  opacity:0;
+}
+
+#overlay:hover span{
+  opacity:1;
+}
+
+.spotlightimg #FaurotField {
+  position: absolute;
+  left: 0;
+  top: 0;
+}*/
+/*#text2 {
+  z-index:100;
+  position:absolute;
+  text-align: center;
+  color: white;
+  background-color:rgba(0, 0, 1, 0.5);
+  padding: 5px 100px;
+  font-size:24px;
+  font-weight: bold;
+  left:430px;
+  top:1355px;
+}
+/*#overlay span{
+  opacity:0;
+}
+
+#overlay:hover span{
+  opacity:1;
+}*/
 /*This is text hover over homepage images*/
