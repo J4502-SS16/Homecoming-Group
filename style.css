@@ -405,9 +405,10 @@ figure{
 /*this calendar page only*/
 
 h3{
-  text-indent: 5px;
-  font-size: 10px;
+  text-indent: 2px;
+  font-size: 12px;
   font-family: domine, serif;
+  padding-bottom: 0px;
 }
 
 .calendar{
