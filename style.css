@@ -408,7 +408,8 @@ h3{
   text-indent: 2px;
   font-size: 12px;
   font-family: domine, serif;
-  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .calendar{
@@ -526,8 +527,8 @@ h3{
   position: absolute;
   left: 0;
   top: 0;
-}*/
-/*#text2 {
+}
+#text2 {
   z-index:100;
   position:absolute;
   text-align: center;
