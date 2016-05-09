@@ -453,13 +453,6 @@ figure{
 
 /*this calendar page only*/
 
-h3{
-  text-indent: 2px;
-  font-size: 12px;
-  font-family: domine, serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
 .calendar{
   display: flex;;
